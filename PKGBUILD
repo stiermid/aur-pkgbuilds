@@ -1,7 +1,7 @@
 # Maintainer: Sidney Kuyateh <autinerd-arch@kuyateh.eu>
 
 pkgname=meta-package-manager
-pkgver=5.14.0
+pkgver=5.15.0
 pkgrel=1
 pkgdesc='A wrapper around all package managers'
 url='https://kdeldycke.github.io/meta-package-manager/'
@@ -26,16 +26,14 @@ optdepends=('apt: support for apt packages'
             'code: support for VSCode extensions'
             'yarn: support for Node packages'
             'yay: support for AUR packages'
-            'yum: support for DNF packages'
             'zypper: support for RPM packages')
 license=('GPL2')
 arch=('any')
-source=("https://github.com/kdeldycke/${pkgname}/archive/refs/tags/v${pkgver}.tar.gz")
-sha512sums=('1eab2ba717667c93c2b4348c1de32d85a09f8d8a521a9462c373c57fca485e6e1116defb31f91e2fb1f0b7830faf094317660c0a377bb7a0de22042c9736bf91')
+source=("${pkgname}-${pkgver}.tar.gz::https://github.com/kdeldycke/${pkgname}/archive/refs/tags/v${pkgver}.tar.gz")
+sha512sums=('1a86f411a3e6d41f75a413c62edd242ec8c4d577fe44948f15d728e8b2f683b06b796d4699a6047bf3d21d1e9e780e4d58cf12a6840747f340ad8fb12de179a4')
 
 
 build() {
-    # Poetry has a bug where .gitignore files in any parent directory is used in excluding files to build, resulting in an empty package.
     cd "$srcdir/$pkgname-$pkgver"
     GIT_DIR="$srcdir/$pkgname-$pkgver" python -m build --wheel --no-isolation
 }
