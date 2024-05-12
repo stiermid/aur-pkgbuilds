@@ -8,7 +8,7 @@ arch=("x86_64" "i686")
 url="https://github.com/JuanBindez/pytubefix"
 license=("MIT")
 makedepends=(
-	"python-build" "python-wheel"
+	"python-build" "python-installer"  "python-wheel"
 )
 depends=(
 	"python"
