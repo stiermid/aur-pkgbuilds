@@ -10,7 +10,7 @@ pkgbase = python-pytubefix
 	makedepends = python-wheel
 	depends = python
 	provides = pytubefix
-	source = python-pytubefx-v5.4.2.zip::https://github.com/JuanBindez/pytubefix/archive/refs/tags/v5.4.2.zip
+	source = python-pytubefix-v5.4.2.zip::https://github.com/JuanBindez/pytubefix/archive/refs/tags/v5.4.2.zip
 	md5sums = SKIP
 
 pkgname = python-pytubefix
