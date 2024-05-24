@@ -1,12 +1,12 @@
 # Maintainer: Sidney Kuyateh <autinerd-arch@kuyateh.eu>
 
 pkgname=meta-package-manager
-pkgver=5.15.0
+pkgver=5.16.0
 pkgrel=1
 pkgdesc='A wrapper around all package managers'
 url='https://kdeldycke.github.io/meta-package-manager/'
 makedepends=(python-build python-installer python-wheel python-poetry-core)
-depends=('python>=3.7' python-boltons python-click 'python-click-extra>=3.10.0' python-packageurl python-tabulate python-tomli python-tomli-w python-typing_extensions python-xmltodict)
+depends=('python>=3.7' python-boltons python-click 'python-click-extra>=4.8.1' python-packageurl python-tabulate python-tomli python-tomli-w python-typing_extensions python-xmltodict)
 checkdepends=(python-pytest python-pytest-cov python-pytest-randomly python-pytest-xdist)
 optdepends=('apt: support for apt packages'
             'rust: support for Rust packages'
@@ -30,7 +30,7 @@ optdepends=('apt: support for apt packages'
 license=('GPL2')
 arch=('any')
 source=("${pkgname}-${pkgver}.tar.gz::https://github.com/kdeldycke/${pkgname}/archive/refs/tags/v${pkgver}.tar.gz")
-sha512sums=('1a86f411a3e6d41f75a413c62edd242ec8c4d577fe44948f15d728e8b2f683b06b796d4699a6047bf3d21d1e9e780e4d58cf12a6840747f340ad8fb12de179a4')
+sha512sums=('8a9a0326c5ce0991bd78cbdb29024c5a92f8f80cfa043df984cc58818c0f41d7fab98e0e3686c105a835f1db6482a1c52897c8dc9ed7ee8fc2d72e842cbd0698')
 
 
 build() {
