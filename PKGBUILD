@@ -1,7 +1,7 @@
 # Maintainer: Ananas <ananas@r3tr0ananas.pro>
 _pkgname=pytubefix
 pkgname=python-pytubefix
-pkgver="5.6.3"
+pkgver="5.7.0"
 pkgrel=1
 pkgdesc="A pytube fork with additional features and fixes"
 arch=("x86_64" "i686")
