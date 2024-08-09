@@ -1,18 +1,18 @@
 # Maintainer: Wüstengecko <1579756+Wuestengecko@users.noreply.github.com>
 pkgname=python-datauri
 _name=${pkgname}
-pkgver=2.0.0
+pkgver=2.2.0
 pkgrel=1
 pkgdesc="A li'l class for data URI manipulation in Python"
 arch=(any)
 url="https://github.com/fcurella/python-datauri"
 license=('Unlicense')
-depends=(python)
+depends=(python python-pydantic-core python-typing_extensions)
 makedepends=(python-build python-installer python-setuptools python-wheel)
 checkdepends=(python-pydantic python-pytest)
 options=(!strip)
 source=("$_name-$pkgver.tar.gz::$url/archive/refs/tags/v$pkgver.tar.gz")
-sha256sums=('93f6151eadb3b6a7a8347936681d5938d2d4b4aee7c89f71b7d485b21c72f3d4')
+sha256sums=('a7c8033a432fe7ebed0030c734727267ddf524cae27aee222b6c9a717ed9fa60')
 
 build() {
   cd "$_name-$pkgver"
