@@ -1,6 +1,6 @@
 pkgbase=python-nodejs-wheel
 pkgname=(python-nodejs-wheel python-nodejs-wheel-binaries)
-pkgver=20.17.0
+pkgver=20.18.0
 pkgrel=1
 pkgdesc="Unoffical Node.js wheels"
 arch=("x86_64")
@@ -15,8 +15,8 @@ source=(
     "$pkgname-$pkgver.tar.gz::https://github.com/njzjz/nodejs-wheel/archive/refs/tags/v$pkgver.tar.gz"
     "nodejs-$pkgver.tar.gz::https://github.com/nodejs/node/archive/refs/tags/v$pkgver.tar.gz"
 )
-sha256sums=('c8ce8cc7bcdfe764ea51f8a33ac027d596854910b2dc6e22ef403db85a319c7d'
-            'f0bdfe0e2c12524ebc24811e405926299241c11a829ef72562e14fee52eb385c')
+sha256sums=('e8a3ae7026f64d303d0240f006a9de23cca135d96dbccf41299fcf1018d307c3'
+            '651bb82f6af18084070893559643759165ce050b5839f830d4cc098130d3ad89')
 noextract=("nodejs-$pkgver.tar.gz")
 
 prepare() {
