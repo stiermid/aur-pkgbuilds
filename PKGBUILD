@@ -1,17 +1,18 @@
 # Maintainer: Sidney Kuyateh <autinerd-arch@kuyateh.eu>
 
 pkgname=meta-package-manager
-pkgver=5.16.0
+pkgver=5.18.0+r31+g9a9b59d8
 pkgrel=1
 pkgdesc='A wrapper around all package managers'
 url='https://kdeldycke.github.io/meta-package-manager/'
-makedepends=(python-build python-installer python-wheel python-poetry-core)
-depends=('python>=3.7' python-boltons python-click 'python-click-extra>=4.8.1' python-packageurl python-tabulate python-tomli python-tomli-w python-typing_extensions python-xmltodict)
+makedepends=(uv)
+depends=(python python-boltons python-click-extra python-cyclonedx-lib python-packageurl python-spdx-tools python-tabulate python-tomli-w python-xmltodict)
 checkdepends=(python-pytest python-pytest-cov python-pytest-randomly python-pytest-xdist)
 optdepends=('apt: support for apt packages'
             'rust: support for Rust packages'
             'composer: support for PHP composer packages'
             'dnf: support for RPM packages'
+            'portage: support for Gentoo packages'
             'flatpak: support for Flatpak packages'
             'rubygems: support for Ruby packages'
             'npm: support for Node.js packages'
@@ -23,23 +24,29 @@ optdepends=('apt: support for apt packages'
             'python-pipx: support for Python pipx packages'
             'snapd: support for Snap packages'
             'steamcmd: support for Steam games'
+            'uv: support for Python packages'
             'code: support for VSCode extensions'
             'yarn: support for Node packages'
             'yay: support for AUR packages'
             'zypper: support for RPM packages')
 license=('GPL2')
 arch=('any')
-source=("${pkgname}-${pkgver}.tar.gz::https://github.com/kdeldycke/${pkgname}/archive/refs/tags/v${pkgver}.tar.gz")
-sha512sums=('8a9a0326c5ce0991bd78cbdb29024c5a92f8f80cfa043df984cc58818c0f41d7fab98e0e3686c105a835f1db6482a1c52897c8dc9ed7ee8fc2d72e842cbd0698')
+source=("git+https://github.com/kdeldycke/${pkgname}.git#commit=9a9b59d860b12338f46cfc7fe25d4bd140a847c2")
+sha512sums=('SKIP')
 
+pkgver() {
+  cd "$srcdir/$pkgname"
+  git describe --tags | sed 's/^v//;s/[^-]*-g/r&/;s/-/+/g'
+}
 
 build() {
-    cd "$srcdir/$pkgname-$pkgver"
-    GIT_DIR="$srcdir/$pkgname-$pkgver" python -m build --wheel --no-isolation
+    cd "$srcdir/$pkgname"
+    uv build
 }
 
 package() {
-    cd "$srcdir/$pkgname-$pkgver"
-    python -m installer --destdir="$pkgdir" dist/*.whl
+    cd "$srcdir/$pkgname"
+    uv pip install --system --link-mode=copy --no-deps --prefix="$pkgdir/usr" dist/*.whl
+    rm "$pkgdir/usr/.lock"
     install -Dm0644 -t "$pkgdir/usr/share/licenses/$pkgname/" license
 }
