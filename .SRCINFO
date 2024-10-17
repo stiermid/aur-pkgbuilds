@@ -1,7 +1,7 @@
 pkgbase = python-extra-platforms
 	pkgdesc = Detect platforms and group them by family
 	pkgver = 1.3.1
-	pkgrel = 2
+	pkgrel = 3
 	url = https://kdeldycke.github.io/extra-platforms/
 	arch = any
 	license = GPL2

@@ -3,7 +3,7 @@
 pkgname=python-extra-platforms
 _name=${pkgname#python-}
 pkgver=1.3.1
-pkgrel=2
+pkgrel=3
 pkgdesc='Detect platforms and group them by family'
 url='https://kdeldycke.github.io/extra-platforms/'
 makedepends=(uv)
@@ -21,6 +21,7 @@ build() {
 
 package() {
     cd "$srcdir/$_name-$pkgver"
-    uv pip install --system --no-build-isolation --link-mode=copy --no-deps --prefix="$pkgdir/usr" dist/*.whl
+    uv pip install --system --link-mode=copy --no-deps --prefix="$pkgdir/usr" dist/*.whl
+    rm "$pkgdir/usr/.lock"
     install -Dm0644 -t "$pkgdir/usr/share/licenses/$pkgname/" license
 }
