@@ -1,6 +1,6 @@
 pkgbase = python-nodejs-wheel
 	pkgdesc = Unoffical Node.js wheels
-	pkgver = 22.11.0
+	pkgver = 22.12.0
 	pkgrel = 1
 	url = https://pypi.org/project/nodejs-wheel/
 	arch = x86_64
@@ -13,18 +13,18 @@ pkgbase = python-nodejs-wheel
 	makedepends = python-hatchling
 	makedepends = python-hatch-vcs
 	depends = python
-	noextract = nodejs-22.11.0.tar.gz
+	noextract = nodejs-22.12.0.tar.gz
 	options = !lto
-	source = python-nodejs-wheel-22.11.0.tar.gz::https://github.com/njzjz/nodejs-wheel/archive/refs/tags/v22.11.0.tar.gz
-	source = nodejs-22.11.0.tar.gz::https://github.com/nodejs/node/archive/refs/tags/v22.11.0.tar.gz
-	sha256sums = 66a58de579f1d2fb64aa021ef324877375beb0b86596d4ddb4edfadcbb714f81
-	sha256sums = 80353744f00436fcba4d45e9ff836dd08cf578c2400e7b72d121e65cfe0529e2
+	source = python-nodejs-wheel-22.12.0.tar.gz::https://github.com/njzjz/nodejs-wheel/archive/refs/tags/v22.12.0.tar.gz
+	source = nodejs-22.12.0.tar.gz::https://github.com/nodejs/node/archive/refs/tags/v22.12.0.tar.gz
+	sha256sums = 9595ac9c1befd0c598c311efbcd9d98a027b917dbef99131bfb62d152a972e3c
+	sha256sums = 635eb3e14a42ca33b65b80598c4d062e62507659a47b76e02a040d5e40295bba
 
 pkgname = python-nodejs-wheel
 	pkgdesc = Unoffical Node.js wheels (CLI tools)
 	depends = python
 	depends = python-nodejs-wheel-binaries
-	provides = nodejs=22.11.0
+	provides = nodejs=22.12.0
 	provides = npm
 	conflicts = nodejs
 	conflicts = npm
