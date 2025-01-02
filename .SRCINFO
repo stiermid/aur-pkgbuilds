@@ -1,6 +1,6 @@
 pkgbase = python-strictdoc
 	pkgdesc = Software for writing technical requirements and specifications.
-	pkgver = 0.2.1
+	pkgver = 0.4.0
 	pkgrel = 1
 	url = https://github.com/strictdoc-project/strictdoc
 	arch = any
@@ -30,7 +30,7 @@ pkgbase = python-strictdoc
 	depends = uvicorn
 	optdepends = python-graphviz
 	optdepends = python-webdriver-manager
-	source = https://files.pythonhosted.org/packages/source/s/strictdoc/strictdoc-0.2.1.tar.gz
-	sha512sums = cec299c36d5adc6c0135d5ba9cd09c39b9866f3ed90a0db2e180dba5e2ea5e0b2c7630dc39d0aaf7606be6eac312a4b3f5153af0e820e2d8f07858acc509724c
+	source = https://files.pythonhosted.org/packages/source/s/strictdoc/strictdoc-0.4.0.tar.gz
+	sha512sums = 4d9041e260bc18eeeed3c4b65c06c76171b9cb9d0b63d16ecd1ac1bce7092c307971213f7d3dff15c00ea9edb650ea6297ac7f3daaf20a9b37c16256f6ea30de
 
 pkgname = python-strictdoc
