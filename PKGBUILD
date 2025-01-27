@@ -3,7 +3,7 @@
 pkgname='python-strictdoc'
 _name=${pkgname#python-}
 pkgver='0.5.0'
-pkgrel=1
+pkgrel=2
 pkgdesc="Software for writing technical requirements and specifications."
 url="https://github.com/strictdoc-project/strictdoc"
 depends=(
@@ -52,6 +52,7 @@ package() {
 	local _site=$(python -c "import site; print(site.getsitepackages()[0])")
 	mv \
 		"${pkgdir}${_site}/LICENSE" \
+		"${pkgdir}${_site}/NOTICE" \
 		"${pkgdir}${_site}/README.md" \
 		"${pkgdir}${_site}/pyproject.toml" \
 			"${pkgdir}${_site}/${_name}"
