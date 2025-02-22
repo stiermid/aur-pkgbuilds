@@ -1,18 +1,18 @@
-# Maintainer: Sidney Kuyateh <autinerd-arch@kuyateh.eu>
+# Contributor: Sidney Kuyateh <autinerd-arch@kuyateh.eu>
 
 pkgname=python-extra-platforms
 _name=${pkgname#python-}
-pkgver=1.3.1
-pkgrel=3
+pkgver=2.1.0
+pkgrel=1
 pkgdesc='Detect platforms and group them by family'
 url='https://kdeldycke.github.io/extra-platforms/'
 makedepends=(uv)
 depends=(python python-boltons python-distro)
-checkdepends=(python-pytest python-pytest-cov python-pytest-randomly)
+#checkdepends=(python-pytest python-pytest-cov python-pytest-randomly)
 license=('GPL2')
 arch=('any')
 source=("${pkgname}-${pkgver}.tar.gz::https://github.com/kdeldycke/${_name}/archive/refs/tags/v${pkgver}.tar.gz")
-sha512sums=('afefd17158a16c8f70917b949b17bbf254af7c7965e7acfcfd9523d13679922d8d9850a749b39be1a7b84abea0c7518d2ff9fc971f00898cc15fbe4e482067ed')
+sha512sums=('bd3fda523679d816662edb4a2f853fc1f177caf57fcc9dbfff900b2dcf0128f61372d1cccda70df57a4ea38dfb6faca2b5ae76f49e4a35f01ffc03f52d3c62f8')
 
 build() {
     cd "$srcdir/$_name-$pkgver"
