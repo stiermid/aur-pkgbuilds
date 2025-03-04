@@ -1,8 +1,9 @@
+# Maintainer: Michał Wojdyła < micwoj9292 at gmail dot com >
 # Contributor: Sidney Kuyateh <autinerd-arch@kuyateh.eu>
 
 pkgname=python-extra-platforms
 _name=${pkgname#python-}
-pkgver=2.1.0
+pkgver=3.1.0
 pkgrel=1
 pkgdesc='Detect platforms and group them by family'
 url='https://kdeldycke.github.io/extra-platforms/'
@@ -12,7 +13,7 @@ depends=(python python-boltons python-distro)
 license=('GPL2')
 arch=('any')
 source=("${pkgname}-${pkgver}.tar.gz::https://github.com/kdeldycke/${_name}/archive/refs/tags/v${pkgver}.tar.gz")
-sha512sums=('bd3fda523679d816662edb4a2f853fc1f177caf57fcc9dbfff900b2dcf0128f61372d1cccda70df57a4ea38dfb6faca2b5ae76f49e4a35f01ffc03f52d3c62f8')
+sha512sums=('bce24dda5f34c4e0f02e6cfd9d73037d2349f957232796a570fc0eb9d70b048e044edc56ae1e94b44cd8ed8ce537c46081a274c9ec3be55015d17f14b3d8553c')
 
 build() {
     cd "$srcdir/$_name-$pkgver"
