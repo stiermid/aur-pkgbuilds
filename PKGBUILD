@@ -1,11 +1,11 @@
-# Maintainer: Sidney Kuyateh <autinerd-arch@kuyateh.eu>
+# Contributor: Sidney Kuyateh <autinerd-arch@kuyateh.eu>
 
 pkgname=meta-package-manager
-pkgver=5.18.0+r31+g9a9b59d8
+pkgver=5.20.0
 pkgrel=1
 pkgdesc='A wrapper around all package managers'
 url='https://kdeldycke.github.io/meta-package-manager/'
-makedepends=(uv)
+makedepends=(git uv)
 depends=(python python-boltons python-click-extra python-cyclonedx-lib python-packageurl python-spdx-tools python-tabulate python-tomli-w python-xmltodict)
 checkdepends=(python-pytest python-pytest-cov python-pytest-randomly python-pytest-xdist)
 optdepends=('apt: support for apt packages'
@@ -31,12 +31,19 @@ optdepends=('apt: support for apt packages'
             'zypper: support for RPM packages')
 license=('GPL2')
 arch=('any')
-source=("git+https://github.com/kdeldycke/${pkgname}.git#commit=9a9b59d860b12338f46cfc7fe25d4bd140a847c2")
-sha512sums=('SKIP')
+source=("git+https://github.com/kdeldycke/${pkgname}.git#commit=479d9aa5c1ee3a839af19819ba2961fbeb868c75"
+	"click-extra-4.15.0.patch")
+sha512sums=('f9b1603355be203195b5ceeab8e3ce49f0d29fb5213a0cb97d43e35b9ecb22ebe18ae552fd48930e7aead82aca539d674e43bd619e27fdec7d288c0668b9ec31'
+            'db4bc2e5aaad5e6f2e1db8d4abaff0e4eaeee40fccd10834e8261dbf6234e122d3be68aa92354ce3aa457561a1fd7b62cf72bf4d5896e4f785e17a69b6ed4b04')
 
 pkgver() {
   cd "$srcdir/$pkgname"
   git describe --tags | sed 's/^v//;s/[^-]*-g/r&/;s/-/+/g'
+}
+
+prepare(){
+    cd "$srcdir/$pkgname"
+    patch -p1 -i ../click-extra-4.15.0.patch
 }
 
 build() {
