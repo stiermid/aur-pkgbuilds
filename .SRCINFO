@@ -1,6 +1,6 @@
 pkgbase = meta-package-manager
 	pkgdesc = A wrapper around all package managers
-	pkgver = 5.20.0
+	pkgver = 5.20.0+r119+g9e27b48d
 	pkgrel = 1
 	url = https://kdeldycke.github.io/meta-package-manager/
 	arch = any
@@ -15,6 +15,7 @@ pkgbase = meta-package-manager
 	depends = python-boltons
 	depends = python-click-extra
 	depends = python-cyclonedx-lib
+	depends = python-more-itertools
 	depends = python-packageurl
 	depends = python-spdx-tools
 	depends = python-tabulate
@@ -41,9 +42,7 @@ pkgbase = meta-package-manager
 	optdepends = yarn: support for Node packages
 	optdepends = yay: support for AUR packages
 	optdepends = zypper: support for RPM packages
-	source = git+https://github.com/kdeldycke/meta-package-manager.git#commit=479d9aa5c1ee3a839af19819ba2961fbeb868c75
-	source = click-extra-4.15.0.patch
-	sha512sums = f9b1603355be203195b5ceeab8e3ce49f0d29fb5213a0cb97d43e35b9ecb22ebe18ae552fd48930e7aead82aca539d674e43bd619e27fdec7d288c0668b9ec31
-	sha512sums = db4bc2e5aaad5e6f2e1db8d4abaff0e4eaeee40fccd10834e8261dbf6234e122d3be68aa92354ce3aa457561a1fd7b62cf72bf4d5896e4f785e17a69b6ed4b04
+	source = git+https://github.com/kdeldycke/meta-package-manager.git#commit=9e27b48df599d4f2a8eb775c870c195de3d07f52
+	sha512sums = 8f485daff1f30f1cb7274d45c562ca963f554a248fd3375628d8893f701e7163aa0be86dbe4305780803d8c2b7f39462786fe4f448cbb9b63cdc4b023be7ff22
 
 pkgname = meta-package-manager
