@@ -1,20 +1,22 @@
 # Generated using pip2pkgbuild - https://github.com/wenLiangcan/pip2pkgbuild | https://aur.archlinux.org/packages/pip2pkgbuild
-# Maintainer: Ryen Burns <bburns91@gmail.com>
+# Maintainer: lalala <lalala_233@qq.com>
+# Contributer: Ryen Burns <bburns91@gmail.com>
 # Contributer: loryeam <loryeam@gmail.com>
 
 pkgbase='python-cs50'
 pkgname=('python-cs50')
 _module='cs50'
-pkgver='9.2.5'
-pkgrel=9
+pkgver='9.4.0'
+pkgrel=1
 pkgdesc="CS50 library for Python"
 url="https://github.com/cs50/python-cs50"
-depends=('python' 'python-flask' 'python-sqlalchemy' 'python-sqlparse' 'python-termcolor' 'python-wheel')
+# from https://github.com/cs50/python-cs50/blob/7247c92fdb4832a04d510ad0d31f16f9307ae8fa/setup.py#L13
+depends=('python' 'python-flask' 'python-packaging' 'python-sqlalchemy' 'python-sqlparse' 'python-termcolor' 'python-wheel')
 makedepends=('python-build' 'python-installer')
 license=('GPLv3')
 arch=('any')
 source=("https://files.pythonhosted.org/packages/source/${_module::1}/$_module/${_module/-/_}-$pkgver.tar.gz")
-sha256sums=('dcbbc174cc2e5c67c052628ef8afc1659c4f162ab724587e8f07dbe024151be7')
+sha256sums=('d4a1876e8fa957003ebf0d88e9a85af6ce775123bfded71480c17ec8fbfc6129')
 
 build() {
     cd "${srcdir}/${_module}-${pkgver}"
