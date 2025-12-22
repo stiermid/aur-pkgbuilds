@@ -3,7 +3,7 @@
 # Contributor:	Dimitris Kiziridis <ragouel at outlook dot com>
 _base=munge
 pkgname=python-${_base}
-pkgver=1.4.0
+pkgver=1.4.1
 pkgrel=1
 pkgdesc="Data manipulation client/library"
 arch=(any)
@@ -15,7 +15,7 @@ checkdepends=(python-pytest python-toml)
 optdepends=('python-toml' 'python-tomlkit' 'python-yaml')
 changelog=CHANGELOG.md
 source=(${_base}-${pkgver}.tar.gz::${url}/archive/v${pkgver}.tar.gz)
-sha512sums=('39b7bc6278a31edc70747deec157274754333bdbdde8d8cc90348b3ddb2e77af73f64e31139be9e5577f73a442097426ce393112a9a8b246faca75cf4a59409c')
+sha512sums=('9dacf521cffd4779fb5b496ce7e931af32dedd9a0745d783d3c5368c7817fa2471bb02d5f172bd442829efb2754fbd23013d726b8ece9a0be272b4211d7882c0')
 
 build() {
   cd ${_base}-${pkgver}
