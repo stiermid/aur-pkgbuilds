@@ -2,13 +2,13 @@
 # Contributor: Sidney Kuyateh <autinerd-arch@kuyateh.eu>
 
 pkgname=meta-package-manager
-pkgver=6.0.2
+pkgver=6.1.1
 pkgrel=1
-_commit=51c6d304e673809f74ec15fb8f2a36f2924862ed
+_commit=819b8231f57221842c43c9b24cf41f1e5d94570e
 pkgdesc='A wrapper around all package managers'
 url='https://kdeldycke.github.io/meta-package-manager/'
 makedepends=(git uv)
-depends=(python python-boltons python-click-extra python-cyclonedx-lib python-more-itertools python-packageurl python-spdx-tools python-tabulate python-tomli-w python-xmltodict)
+depends=(python python-boltons python-click-extra python-cyclonedx-lib python-more-itertools python-packageurl python-spdx-tools python-tomli-w python-xmltodict)
 checkdepends=(python-pytest python-pytest-cov python-pytest-randomly python-pytest-xdist)
 optdepends=('apt: support for apt packages'
             'rust: support for Rust packages'
@@ -34,7 +34,7 @@ optdepends=('apt: support for apt packages'
 license=('GPL2')
 arch=('any')
 source=("git+https://github.com/kdeldycke/${pkgname}.git#commit=$_commit")
-sha512sums=('8e5933c5cec000cdc7ef55d8c3402f221d82da808577ac058769455478972524ca25bc8615e80d77a7c12bb51998f0ec5e16c1ab991fca3d4b5e9dfb7da66059')
+sha512sums=('72cffd33a212c4ea1e1a89928612887832549722bceef79615028f3671e0907dcf534c18969176f26b3eacb891320b3455a1f74ca38508a48d7c781150210f4f')
 
 pkgver() {
   cd "$srcdir/$pkgname"

@@ -1,6 +1,6 @@
 pkgbase = meta-package-manager
 	pkgdesc = A wrapper around all package managers
-	pkgver = 6.0.2
+	pkgver = 6.1.1
 	pkgrel = 1
 	url = https://kdeldycke.github.io/meta-package-manager/
 	arch = any
@@ -18,7 +18,6 @@ pkgbase = meta-package-manager
 	depends = python-more-itertools
 	depends = python-packageurl
 	depends = python-spdx-tools
-	depends = python-tabulate
 	depends = python-tomli-w
 	depends = python-xmltodict
 	optdepends = apt: support for apt packages
@@ -42,7 +41,7 @@ pkgbase = meta-package-manager
 	optdepends = yarn: support for Node packages
 	optdepends = yay: support for AUR packages
 	optdepends = zypper: support for RPM packages
-	source = git+https://github.com/kdeldycke/meta-package-manager.git#commit=51c6d304e673809f74ec15fb8f2a36f2924862ed
-	sha512sums = 8e5933c5cec000cdc7ef55d8c3402f221d82da808577ac058769455478972524ca25bc8615e80d77a7c12bb51998f0ec5e16c1ab991fca3d4b5e9dfb7da66059
+	source = git+https://github.com/kdeldycke/meta-package-manager.git#commit=819b8231f57221842c43c9b24cf41f1e5d94570e
+	sha512sums = 72cffd33a212c4ea1e1a89928612887832549722bceef79615028f3671e0907dcf534c18969176f26b3eacb891320b3455a1f74ca38508a48d7c781150210f4f
 
 pkgname = meta-package-manager
