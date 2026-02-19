@@ -1,0 +1,15 @@
+pkgbase = flag.h-git
+	pkgdesc = Command-line flag parsing in C
+	pkgver = r53.7d36992
+	pkgrel = 1
+	url = https://github.com/tsoding/flag.h
+	arch = any
+	license = MIT
+	makedepends = git
+	provides = flag.h
+	conflicts = flag.h
+	options = !strip
+	source = git+https://github.com/tsoding/flag.h.git
+	sha256sums = SKIP
+
+pkgname = flag.h-git
