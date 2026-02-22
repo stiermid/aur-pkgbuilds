@@ -1,0 +1,19 @@
+[__config__]
+oldver = "old_ver.json"
+newver = "new_ver.json"
+
+["nob.h"]
+source = "github"
+github = "tsoding/nob.h"
+use_max_tag = true
+prefix = "v"
+
+[python-hwdata]
+source = "github"
+github = "xsuchy/python-hwdata"
+use_max_tag = true
+prefix = "python-hwdata-"
+
+[nodejs-ramadan-cli]
+source = "npm"
+npm = "ramadan-cli"
