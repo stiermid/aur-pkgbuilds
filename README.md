@@ -3,7 +3,8 @@
 This repository contains the packages I maintain in the
 [AUR](https://aur.archlinux.org).
 
-Powered by [aurpublish](https://github.com/eli-schwartz/aurpublish)!
+Powered by [aurpublish](https://github.com/eli-schwartz/aurpublish)
+ & [nvchecker](https://github.com/lilydjwg/nvchecker)!
 
 ## License
 
