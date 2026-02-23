@@ -2,6 +2,12 @@
 oldver = "old_ver.json"
 newver = "new_ver.json"
 
+[s3tui]
+source = "github"
+github = "softberries/s3tui"
+use_max_tag = true
+prefix = "v"
+
 ["nob.h"]
 source = "github"
 github = "tsoding/nob.h"

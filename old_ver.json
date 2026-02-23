@@ -1,21 +1,4 @@
 {
   "version": 2,
-  "data": {
-    "nob.h": {
-      "version": "3.2.2",
-      "gitref": "refs/tags/v3.2.2",
-      "revision": "b8b02537d50a454178f4765c2c5aa7b8f4dccb41",
-      "url": "https://github.com/tsoding/nob.h/releases/tag/v3.2.2"
-    },
-    "nodejs-ramadan-cli": {
-      "version": "6.1.0",
-      "url": "https://www.npmjs.com/package/ramadan-cli/v/6.1.0"
-    },
-    "python-hwdata": {
-      "version": "2.4.3-1",
-      "gitref": "refs/tags/python-hwdata-2.4.3-1",
-      "revision": "641d000da824e45c194f5400cfdce1ba58a95eeb",
-      "url": "https://github.com/xsuchy/python-hwdata/releases/tag/python-hwdata-2.4.3-1"
-    }
-  }
+  "data": {}
 }

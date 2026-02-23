@@ -16,6 +16,12 @@
       "gitref": "refs/tags/python-hwdata-2.4.3-1",
       "revision": "641d000da824e45c194f5400cfdce1ba58a95eeb",
       "url": "https://github.com/xsuchy/python-hwdata/releases/tag/python-hwdata-2.4.3-1"
+    },
+    "s3tui": {
+      "version": "0.4.2",
+      "gitref": "refs/tags/v0.4.2",
+      "revision": "678e16c744a41384e319ece2b4db08ea0aa766c5",
+      "url": "https://github.com/softberries/s3tui/releases/tag/v0.4.2"
     }
   }
 }
