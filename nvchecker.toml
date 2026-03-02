@@ -23,3 +23,7 @@ prefix = "python-hwdata-"
 [nodejs-ramadan-cli]
 source = "npm"
 npm = "ramadan-cli"
+
+[python-nanoid]
+source = "pypi"
+pypi = "nanoid"

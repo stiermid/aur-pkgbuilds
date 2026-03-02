@@ -17,6 +17,10 @@
       "revision": "641d000da824e45c194f5400cfdce1ba58a95eeb",
       "url": "https://github.com/xsuchy/python-hwdata/releases/tag/python-hwdata-2.4.3-1"
     },
+    "python-nanoid": {
+      "version": "2.0.0",
+      "url": "https://pypi.org/project/nanoid/2.0.0/"
+    },
     "s3tui": {
       "version": "0.5.0",
       "gitref": "refs/tags/v0.5.0",
