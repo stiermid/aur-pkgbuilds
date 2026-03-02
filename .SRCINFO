@@ -1,14 +1,15 @@
 pkgbase = python-extra-platforms
 	pkgdesc = Detect platforms and group them by family
-	pkgver = 9.2.0
+	pkgver = 11.0.0
 	pkgrel = 1
 	url = https://github.com/kdeldycke/extra-platforms
 	arch = any
-	license = GPL2
-	makedepends = uv
+	license = Apache-2.0
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-uv-build
 	depends = python
-	depends = python-distro
-	source = python-extra-platforms-9.2.0.tar.gz::https://github.com/kdeldycke/extra-platforms/archive/refs/tags/v9.2.0.tar.gz
-	sha512sums = c82fe0e72f6cdddef51aa9891442c11670a546ec2b8641d1c6bc1d0e285f81bfd5eb97c2fba3fcbb2c0c192e63e94590e8c91d21720437faef7bce08ea10da99
+	source = python-extra-platforms-11.0.0.tar.gz::https://github.com/kdeldycke/extra-platforms/archive/refs/tags/v11.0.0.tar.gz
+	sha512sums = 719a966c7e92896c9206abab5970f0374885bc80d2881c31c18f281c02cc146df3bca78d16787ce757fab6f27dc6ba90c96394eeb0bdc3f8d7d28ba1e466845b
 
 pkgname = python-extra-platforms
