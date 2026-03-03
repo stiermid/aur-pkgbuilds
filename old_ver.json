@@ -11,6 +11,12 @@
       "version": "6.1.0",
       "url": "https://www.npmjs.com/package/ramadan-cli/v/6.1.0"
     },
+    "python-cs50": {
+      "version": "9.5.0",
+      "gitref": "refs/tags/v9.5.0",
+      "revision": "b07d06a8b7728287e15f77ba8941baa19f2e81f3",
+      "url": "https://github.com/cs50/python-cs50/releases/tag/v9.5.0"
+    },
     "python-hwdata": {
       "version": "2.4.3-1",
       "gitref": "refs/tags/python-hwdata-2.4.3-1",
