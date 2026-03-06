@@ -17,6 +17,12 @@
       "revision": "b07d06a8b7728287e15f77ba8941baa19f2e81f3",
       "url": "https://github.com/cs50/python-cs50/releases/tag/v9.5.0"
     },
+    "python-extra-platforms": {
+      "version": "11.0.2",
+      "gitref": "refs/tags/v11.0.2",
+      "revision": "22baa4c8fb90a333f4a5747620a01602a014c096",
+      "url": "https://github.com/kdeldycke/extra-platforms/releases/tag/v11.0.2"
+    },
     "python-hwdata": {
       "version": "2.4.3-1",
       "gitref": "refs/tags/python-hwdata-2.4.3-1",
