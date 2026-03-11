@@ -39,3 +39,7 @@ source = "github"
 github = "kdeldycke/extra-platforms"
 use_max_tag = true
 prefix = "v"
+
+[python-pyborgeous]
+source = "pypi"
+pypi = "pyborgeous"
