@@ -2,10 +2,10 @@
   "version": 2,
   "data": {
     "nob.h": {
-      "version": "3.3.0",
-      "gitref": "refs/tags/v3.3.0",
-      "revision": "db8a5c9380dc8153659c35a64d300fdd054d1aa0",
-      "url": "https://github.com/tsoding/nob.h/releases/tag/v3.3.0"
+      "version": "3.4.0",
+      "gitref": "refs/tags/v3.4.0",
+      "revision": "e1a29b0c5551bd6d9e7757a4f269097494f1bd0b",
+      "url": "https://github.com/tsoding/nob.h/releases/tag/v3.4.0"
     },
     "nodejs-ramadan-cli": {
       "version": "6.2.0",
