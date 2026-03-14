@@ -43,3 +43,9 @@ prefix = "v"
 [python-pyborgeous]
 source = "pypi"
 pypi = "pyborgeous"
+
+[python-markovify]
+source = "github"
+github = "jsvine/markovify"
+use_max_tag = true
+prefix = "v"

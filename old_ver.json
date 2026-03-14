@@ -29,6 +29,12 @@
       "revision": "641d000da824e45c194f5400cfdce1ba58a95eeb",
       "url": "https://github.com/xsuchy/python-hwdata/releases/tag/python-hwdata-2.4.3-1"
     },
+    "python-markovify": {
+      "version": "0.9.4",
+      "gitref": "refs/tags/v0.9.4",
+      "revision": "5635fe1d78b82834e1ecf9ff18c73c71d3fc68b7",
+      "url": "https://github.com/jsvine/markovify/releases/tag/v0.9.4"
+    },
     "python-nanoid": {
       "version": "2.0.0",
       "url": "https://pypi.org/project/nanoid/2.0.0/"
