@@ -49,3 +49,9 @@ source = "github"
 github = "jsvine/markovify"
 use_max_tag = true
 prefix = "v"
+
+[deadbranch]
+source = "github"
+github = "armgabrielyan/deadbranch"
+use_max_tag = true
+prefix = "v"
