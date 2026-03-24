@@ -8,10 +8,10 @@
       "url": "https://github.com/armgabrielyan/deadbranch/releases/tag/v0.3.0"
     },
     "nob.h": {
-      "version": "3.7.0",
-      "gitref": "refs/tags/v3.7.0",
-      "revision": "9b91e4c24b15f545cafc021bf5c86e98305e7e0c",
-      "url": "https://github.com/tsoding/nob.h/releases/tag/v3.7.0"
+      "version": "3.8.0",
+      "gitref": "refs/tags/v3.8.0",
+      "revision": "1393b2ad3cda690ab2c2a2eb7f3860420b64dde6",
+      "url": "https://github.com/tsoding/nob.h/releases/tag/v3.8.0"
     },
     "nodejs-ramadan-cli": {
       "version": "6.2.0",
