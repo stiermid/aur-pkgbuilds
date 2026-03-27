@@ -55,3 +55,7 @@ source = "github"
 github = "armgabrielyan/deadbranch"
 use_max_tag = true
 prefix = "v"
+
+[nodejs-ripencli]
+source = "npm"
+npm = "ripencli"
