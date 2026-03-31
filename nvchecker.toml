@@ -63,4 +63,5 @@ npm = "ripencli"
 [python-spdx-tools]
 source = "github"
 github = "spdx/tools-python"
+use_max_tag = true
 prefix = "v"
