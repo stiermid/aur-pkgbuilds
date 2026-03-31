@@ -59,3 +59,8 @@ prefix = "v"
 [nodejs-ripencli]
 source = "npm"
 npm = "ripencli"
+
+[python-spdx-tools]
+source = "github"
+github = "spdx/tools-python"
+prefix = "v"

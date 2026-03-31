@@ -53,6 +53,11 @@
       "version": "0.5.0",
       "url": "https://pypi.org/project/pyborgeous/0.5.0/"
     },
+    "python-spdx-tools": {
+      "version": "20260313.091518",
+      "revision": "cef432adee09dbff2eedf7e33e4aa8be7c11ccfd",
+      "url": "https://github.com/spdx/tools-python/commit/cef432adee09dbff2eedf7e33e4aa8be7c11ccfd"
+    },
     "s3tui": {
       "version": "0.5.0",
       "gitref": "refs/tags/v0.5.0",
