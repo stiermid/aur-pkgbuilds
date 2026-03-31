@@ -7,6 +7,12 @@
       "revision": "38977f15323c0c03831a0c30075bb4d6b52b5909",
       "url": "https://github.com/armgabrielyan/deadbranch/releases/tag/v0.4.0"
     },
+    "meta-package-manager": {
+      "version": "6.2.1",
+      "gitref": "refs/tags/v6.2.1",
+      "revision": "655364dbcd6e86349c13568cd36c25e2e40b1952",
+      "url": "https://github.com/kdeldycke/meta-package-manager/releases/tag/v6.2.1"
+    },
     "nob.h": {
       "version": "3.8.0",
       "gitref": "refs/tags/v3.8.0",
