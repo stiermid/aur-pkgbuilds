@@ -2,10 +2,10 @@
   "version": 2,
   "data": {
     "deadbranch": {
-      "version": "0.3.0",
-      "gitref": "refs/tags/v0.3.0",
-      "revision": "e2207a1b619a6eb81fd90cc623c9c58d366b04f8",
-      "url": "https://github.com/armgabrielyan/deadbranch/releases/tag/v0.3.0"
+      "version": "0.4.0",
+      "gitref": "refs/tags/v0.4.0",
+      "revision": "38977f15323c0c03831a0c30075bb4d6b52b5909",
+      "url": "https://github.com/armgabrielyan/deadbranch/releases/tag/v0.4.0"
     },
     "nob.h": {
       "version": "3.8.0",
@@ -28,10 +28,10 @@
       "url": "https://github.com/cs50/python-cs50/releases/tag/v9.5.0"
     },
     "python-extra-platforms": {
-      "version": "11.0.3",
-      "gitref": "refs/tags/v11.0.3",
-      "revision": "b55f1dd20ea0ac367efa262a08c16ec5cd6301dd",
-      "url": "https://github.com/kdeldycke/extra-platforms/releases/tag/v11.0.3"
+      "version": "11.0.4",
+      "gitref": "refs/tags/v11.0.4",
+      "revision": "847b49bf99846a952c3ae557921959acec8c1807",
+      "url": "https://github.com/kdeldycke/extra-platforms/releases/tag/v11.0.4"
     },
     "python-hwdata": {
       "version": "2.4.3-1",
