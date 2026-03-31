@@ -2,10 +2,10 @@
   "version": 2,
   "data": {
     "deadbranch": {
-      "version": "0.3.0",
-      "gitref": "refs/tags/v0.3.0",
-      "revision": "e2207a1b619a6eb81fd90cc623c9c58d366b04f8",
-      "url": "https://github.com/armgabrielyan/deadbranch/releases/tag/v0.3.0"
+      "version": "0.4.0",
+      "gitref": "refs/tags/v0.4.0",
+      "revision": "38977f15323c0c03831a0c30075bb4d6b52b5909",
+      "url": "https://github.com/armgabrielyan/deadbranch/releases/tag/v0.4.0"
     },
     "nob.h": {
       "version": "3.8.0",
