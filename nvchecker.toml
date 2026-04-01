@@ -71,3 +71,9 @@ source = "github"
 github = "kdeldycke/meta-package-manager"
 use_max_tag = true
 prefix = "v"
+
+[python-repomatic]
+source = "github"
+github = "kdeldycke/repomatic"
+use_max_tag = true
+prefix = "v"
