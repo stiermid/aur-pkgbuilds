@@ -14,10 +14,10 @@
       "url": "https://github.com/kdeldycke/meta-package-manager/releases/tag/v6.2.1"
     },
     "nob.h": {
-      "version": "3.8.0",
-      "gitref": "refs/tags/v3.8.0",
-      "revision": "1393b2ad3cda690ab2c2a2eb7f3860420b64dde6",
-      "url": "https://github.com/tsoding/nob.h/releases/tag/v3.8.0"
+      "version": "3.8.1",
+      "gitref": "refs/tags/v3.8.1",
+      "revision": "0ce166a88c5e74f4754704dcceb40679e857cdbd",
+      "url": "https://github.com/tsoding/nob.h/releases/tag/v3.8.1"
     },
     "nodejs-ramadan-cli": {
       "version": "6.2.0",
