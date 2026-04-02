@@ -71,6 +71,10 @@
       "revision": "cef432adee09dbff2eedf7e33e4aa8be7c11ccfd",
       "url": "https://github.com/spdx/tools-python/releases/tag/v0.8.5"
     },
+    "python-strictdoc": {
+      "version": "0.19.0",
+      "url": "https://pypi.org/project/strictdoc/0.19.0/"
+    },
     "s3tui": {
       "version": "0.5.0",
       "gitref": "refs/tags/v0.5.0",
