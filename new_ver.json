@@ -33,6 +33,12 @@
       "revision": "b07d06a8b7728287e15f77ba8941baa19f2e81f3",
       "url": "https://github.com/cs50/python-cs50/releases/tag/v9.5.0"
     },
+    "python-datauri": {
+      "version": "3.0.2",
+      "gitref": "refs/tags/v3.0.2",
+      "revision": "bcdfe118c78e0736f6387cdde1889a250a0a70d3",
+      "url": "https://github.com/fcurella/python-datauri/releases/tag/v3.0.2"
+    },
     "python-extra-platforms": {
       "version": "11.0.4",
       "gitref": "refs/tags/v11.0.4",
