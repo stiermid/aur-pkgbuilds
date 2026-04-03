@@ -40,10 +40,10 @@
       "url": "https://github.com/fcurella/python-datauri/releases/tag/v3.0.2"
     },
     "python-extra-platforms": {
-      "version": "11.0.4",
-      "gitref": "refs/tags/v11.0.4",
-      "revision": "847b49bf99846a952c3ae557921959acec8c1807",
-      "url": "https://github.com/kdeldycke/extra-platforms/releases/tag/v11.0.4"
+      "version": "11.0.5",
+      "gitref": "refs/tags/v11.0.5",
+      "revision": "27a572390cd13df78d9549d39f04a55ca5fe6406",
+      "url": "https://github.com/kdeldycke/extra-platforms/releases/tag/v11.0.5"
     },
     "python-hwdata": {
       "version": "2.4.3-1",
