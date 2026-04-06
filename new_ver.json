@@ -13,6 +13,11 @@
       "revision": "655364dbcd6e86349c13568cd36c25e2e40b1952",
       "url": "https://github.com/kdeldycke/meta-package-manager/releases/tag/v6.2.1"
     },
+    "nnote": {
+      "version": "0.1.1",
+      "gitref": "refs/tags/v0.1.1",
+      "url": "https://github.com/stiermid/nnote/releases/tag/v0.1.1"
+    },
     "nob.h": {
       "version": "3.8.2",
       "gitref": "refs/tags/v3.8.2",

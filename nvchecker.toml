@@ -87,3 +87,9 @@ source = "github"
 github = "fcurella/python-datauri"
 use_max_tag = true
 prefix = "v"
+
+[nnote]
+source = "github"
+github = "stiermid/nnote"
+use_latest_release = true
+prefix = "v"
