@@ -93,3 +93,7 @@ source = "github"
 github = "stiermid/nnote"
 use_latest_release = true
 prefix = "v"
+
+[ripencli]
+source = "npm"
+npm = "ripencli"
