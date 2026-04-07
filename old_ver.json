@@ -71,10 +71,10 @@
       "url": "https://pypi.org/project/pyborgeous/0.5.0/"
     },
     "python-repomatic": {
-      "version": "6.10.0",
-      "gitref": "refs/tags/v6.10.0",
-      "revision": "ac35a90ce5322a4e4593ae0db7cf348cec80952f",
-      "url": "https://github.com/kdeldycke/repomatic/releases/tag/v6.10.0"
+      "version": "6.11.0",
+      "gitref": "refs/tags/v6.11.0",
+      "revision": "0a4d6470fbbb69496f742e7fe14a706b3ebc2060",
+      "url": "https://github.com/kdeldycke/repomatic/releases/tag/v6.11.0"
     },
     "python-spdx-tools": {
       "version": "0.8.5",
