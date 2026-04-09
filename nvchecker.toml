@@ -101,3 +101,7 @@ npm = "ripencli"
 [python-pybtex]
 source = "pypi"
 pypi = "pybtex"
+
+[python-latexcodec]
+source = "git"
+git = "https://github.com/mcmtroffaes/latexcodec.git"
