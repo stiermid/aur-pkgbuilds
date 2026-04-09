@@ -70,6 +70,10 @@
       "version": "0.5.0",
       "url": "https://pypi.org/project/pyborgeous/0.5.0/"
     },
+    "python-pybtex": {
+      "version": "0.26.1",
+      "url": "https://pypi.org/project/pybtex/0.26.1/"
+    },
     "python-repomatic": {
       "version": "6.11.3",
       "gitref": "refs/tags/v6.11.3",

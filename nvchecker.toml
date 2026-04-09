@@ -97,3 +97,7 @@ prefix = "v"
 [ripencli]
 source = "npm"
 npm = "ripencli"
+
+[python-pybtex]
+source = "pypi"
+pypi = "pybtex"
