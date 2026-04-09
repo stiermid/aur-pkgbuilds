@@ -8,10 +8,10 @@
       "url": "https://github.com/armgabrielyan/deadbranch/releases/tag/v0.4.0"
     },
     "meta-package-manager": {
-      "version": "6.2.1",
-      "gitref": "refs/tags/v6.2.1",
-      "revision": "655364dbcd6e86349c13568cd36c25e2e40b1952",
-      "url": "https://github.com/kdeldycke/meta-package-manager/releases/tag/v6.2.1"
+      "version": "6.3.0",
+      "gitref": "refs/tags/v6.3.0",
+      "revision": "bd5f5d65b8cb7d4c80317686143da076b5b204bb",
+      "url": "https://github.com/kdeldycke/meta-package-manager/releases/tag/v6.3.0"
     },
     "nnote": {
       "version": "0.1.2",
