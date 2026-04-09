@@ -8,10 +8,10 @@
       "url": "https://github.com/armgabrielyan/deadbranch/releases/tag/v0.4.0"
     },
     "meta-package-manager": {
-      "version": "6.2.1",
-      "gitref": "refs/tags/v6.2.1",
-      "revision": "655364dbcd6e86349c13568cd36c25e2e40b1952",
-      "url": "https://github.com/kdeldycke/meta-package-manager/releases/tag/v6.2.1"
+      "version": "6.3.0",
+      "gitref": "refs/tags/v6.3.0",
+      "revision": "bd5f5d65b8cb7d4c80317686143da076b5b204bb",
+      "url": "https://github.com/kdeldycke/meta-package-manager/releases/tag/v6.3.0"
     },
     "nnote": {
       "version": "0.1.2",
@@ -71,10 +71,10 @@
       "url": "https://pypi.org/project/pyborgeous/0.5.0/"
     },
     "python-repomatic": {
-      "version": "6.11.2",
-      "gitref": "refs/tags/v6.11.2",
-      "revision": "da519582a030bccb8d204e2ab3f61343e6c349e5",
-      "url": "https://github.com/kdeldycke/repomatic/releases/tag/v6.11.2"
+      "version": "6.11.3",
+      "gitref": "refs/tags/v6.11.3",
+      "revision": "d5cc7d628d3eae61734faf5ed914ec9df92e1e89",
+      "url": "https://github.com/kdeldycke/repomatic/releases/tag/v6.11.3"
     },
     "python-spdx-tools": {
       "version": "0.8.5",
