@@ -56,10 +56,6 @@ github = "armgabrielyan/deadbranch"
 use_max_tag = true
 prefix = "v"
 
-[nodejs-ripencli]
-source = "npm"
-npm = "ripencli"
-
 [python-spdx-tools]
 source = "github"
 github = "spdx/tools-python"
