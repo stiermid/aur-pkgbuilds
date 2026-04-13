@@ -80,10 +80,10 @@
       "url": "https://pypi.org/project/pybtex/0.26.1/"
     },
     "python-repomatic": {
-      "version": "6.11.3",
-      "gitref": "refs/tags/v6.11.3",
-      "revision": "d5cc7d628d3eae61734faf5ed914ec9df92e1e89",
-      "url": "https://github.com/kdeldycke/repomatic/releases/tag/v6.11.3"
+      "version": "6.12.0",
+      "gitref": "refs/tags/v6.12.0",
+      "revision": "c8f44f78ebc03da94c3fa9345e1978df504cc7e3",
+      "url": "https://github.com/kdeldycke/repomatic/releases/tag/v6.12.0"
     },
     "python-spdx-tools": {
       "version": "0.8.5",
