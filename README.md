@@ -3,8 +3,17 @@
 This repository contains the packages I maintain in the
 [AUR](https://aur.archlinux.org).
 
-Powered by [aurpublish](https://github.com/eli-schwartz/aurpublish)
- & [nvchecker](https://github.com/lilydjwg/nvchecker)!
+Powered by [aurpublish](https://github.com/eli-schwartz/aurpublish)!
+
+## Checking for updates
+
+Each package directory contains its own `.nvchecker.toml`. Run `check_updates.py`
+to merge all per-package configs, invoke [nvchecker](https://github.com/lilydjwg/nvchecker)
+once, and see which packages have a new upstream version available:
+
+```sh
+python check_updates.py
+```
 
 ## License
 
