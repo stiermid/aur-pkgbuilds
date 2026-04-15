@@ -6,6 +6,7 @@ Merges all per-package .nvchecker.toml files into a single combined config
 and runs nvchecker once, minimising network requests.
 
 For each package directory:
+  - Skips -git packages (they always track HEAD)
   - Warns if .nvchecker.toml is missing
   - Compares the fetched latest version with pkgver from .SRCINFO
   - Prints packages that have a new version available
@@ -86,6 +87,9 @@ def build_combined_toml(pkg_dirs: list[Path]) -> tuple[str, dict[str, Path], lis
         name = pkg_dir.name
         config = pkg_dir / ".nvchecker.toml"
         srcinfo = pkg_dir / ".SRCINFO"
+
+        if name.endswith("-git"):
+            continue
 
         if not config.exists():
             warnings.append(f"{YELLOW}WARN{RESET}  {name}: .nvchecker.toml missing — skipping")
