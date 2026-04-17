@@ -116,7 +116,8 @@ def build_combined_toml(pkg_dirs: list[Path]) -> tuple[str, dict[str, Path], lis
                 if isinstance(v, bool):
                     lines.append(f"{k} = {'true' if v else 'false'}")
                 else:
-                    lines.append(f'{k} = "{v}"')
+                    escaped = v.replace("\\", "\\\\").replace('"', '\\"')
+                    lines.append(f'{k} = "{escaped}"')
             sections.append("\n".join(lines))
             included[key] = pkg_dir
 
