@@ -1,3 +1,5 @@
+# Maintainer: Agil Mammadov <mammadovagil@tutamail.com>
+# Contributor: ?
 pkgbase=python-nodejs-wheel
 pkgname=(python-nodejs-wheel python-nodejs-wheel-binaries)
 pkgver=22.15.0
@@ -24,6 +26,7 @@ prepare() {
     sed -i "s|https://github.com/nodejs/node/archive/refs/tags/v|file://$srcdir/nodejs-|g" \
         CMakeLists.txt
 }
+
 build() {
     cd "$srcdir/nodejs-wheel-$pkgver"
     echo "Building nodejs-wheel-binaries..."
@@ -34,6 +37,7 @@ build() {
         pyproject.toml
     python -m build --wheel --no-isolation
 }
+
 package_python-nodejs-wheel() {
     depends+=("python-nodejs-wheel-binaries")
     pkgdesc+=" (CLI tools)"
@@ -45,6 +49,7 @@ package_python-nodejs-wheel() {
     install -Dm644 cmd/LICENSE "$pkgdir/usr/share/licenses/$pkgname/LICENSE"
 
 }
+
 package_python-nodejs-wheel-binaries() {
     cd "$srcdir/nodejs-wheel-$pkgver"
     python -m installer --destdir="$pkgdir" dist/*.whl
