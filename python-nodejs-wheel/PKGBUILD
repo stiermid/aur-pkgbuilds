@@ -1,3 +1,6 @@
+# Maintainer: Agil Mammadov <mammadovagil@tutamail.com>
+# Contributor: Zhang Hua
+
 pkgbase=python-nodejs-wheel
 pkgname=(python-nodejs-wheel python-nodejs-wheel-binaries)
 pkgver=22.15.0
